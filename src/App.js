@@ -34,7 +34,6 @@ const App=()=>{
             <Route path='/channel/:channelID'element={<Channel/>}/>
             <Route path='/video/:videoID'element={<Video/>}/>
             <Route path='/search/:searchID'element={<Search/>}/>
-            
             <Route path="*" element={<Not />}/>
         </Routes>
       </Main>
