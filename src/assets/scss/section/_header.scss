@@ -89,10 +89,12 @@
     bottom:0;
     left: 0;
     right: 0;
+    width: 260px;
     text-align: center;
     padding: 15px 0 10px;
-    background-color: var(--black);
+    background-color: var(--blackAlpha100);
     backdrop-filter: blur(10px);
+
     li{
         display: inline-block;
         a{
